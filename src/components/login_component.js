@@ -8,7 +8,7 @@ export default function Login() {
     e.preventDefault();
 
     console.log(email, password);
-    fetch("http://localhost:5001/login-user", {
+    fetch("https://backend-five-xi.vercel.app/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {

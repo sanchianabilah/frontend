@@ -8,7 +8,7 @@ export default function UserDetails() {
   const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5001/userData", {
+    fetch("https://backend-five-xi.vercel.app/userData", {
       method: "POST",
       crossDomain: true,
       headers: {

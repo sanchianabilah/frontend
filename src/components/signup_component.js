@@ -16,7 +16,7 @@ export default function SignUp() {
       e.preventDefault();
 
       console.log(fname, lname, email, password);
-      fetch("http://localhost:5001/register", {
+      fetch("https://backend-five-xi.vercel.app/register", {
         method: "POST",
         crossDomain: true,
         headers: {
